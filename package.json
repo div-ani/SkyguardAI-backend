@@ -1,0 +1,21 @@
+{
+  "name": "skyguard-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for SkyGuard AI - SIH 2026 PS 26073 (anomaly detection for Automatic Weather Stations)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
